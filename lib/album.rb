@@ -1,11 +1,10 @@
-# class Album
-#   attr_reader(:name)
-#   @@all_albums = []
+class Album
+  attr_reader(:name)
 
-#   def initialize(attributes)
-#     @name = attributes[:name]
-#   end
-
+  def initialize(attributes)
+    @name = attributes[:name]
+  end
+end
 #   def Album.add_album(album_name)
 #     new_album = Album.create({:name => album_name})
 #   end
@@ -24,9 +23,9 @@
 #     @@all_albums
 #   end
 
-#   def Album.create(attributes)
-#     new_album = Album.new(attributes)
-#     @@all_albums << new_album
-#     new_album
-#   end
-# end
+  # def Album.create(attributes)
+  #   new_album = Album.new(attributes)
+  #   @@all_albums << new_album
+  #   new_album
+  # end
+

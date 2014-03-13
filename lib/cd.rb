@@ -1,5 +1,7 @@
+# require 'album'
+
 class CD
-  attr_reader(:artist, :album)
+  attr_reader(:artist, :album, :name)
   # Same as writing methods below:
   # def artist
   #   @artist
@@ -14,6 +16,7 @@ class CD
   def initialize(attributes)
     @artist = attributes[:artist]
     @album = []
+
     @album << attributes[:album]
   end
 

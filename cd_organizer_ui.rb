@@ -1,5 +1,5 @@
-require './lib/cd.rb'
-require './lib/album.rb'
+require './lib/cd'
+require './lib/album'
 
 
 def main_menu
